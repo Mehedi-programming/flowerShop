@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    font-family: Poppins;
+}
+.beautiful{
+    font-size: 40px;
+    font-weight: bolder;
+    max-width: 708px;
+    max-height: 288px;
+}
+.established{
+    font-size: 10px;
+    color: #7c7677;
+    max-width: 634px;
+    max-height: 100px;
+}
+.button{
+    background-color: #e55473;
+    color: white;
+    font-size: 20px;
+    border: none;
+    width: 177px;
+    height: 64px;
+    border-radius: 15px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fdeef1;
+}
