@@ -1,31 +1,291 @@
-*{
+* {
     margin: 0;
+    box-sizing: border-box;
     font-family: Poppins;
 }
-.beautiful{
+
+.beautiful {
     font-size: 40px;
     font-weight: bolder;
-    max-width: 708px;
-    max-height: 288px;
+    line-height: 42px;
 }
-.established{
-    font-size: 10px;
+
+.established {
+    margin-top: 15px;
+    font-size: 14px;
     color: #7c7677;
-    max-width: 634px;
-    max-height: 100px;
 }
-.button{
+
+.button {
+    margin-top: 25px;
     background-color: #e55473;
     color: white;
     font-size: 20px;
     border: none;
-    width: 177px;
-    height: 64px;
+    padding: 10px 20px;
     border-radius: 15px;
 }
-.header-container{
+
+.header-left {
+    width: 50%;
+    /* text-align: center; */
+    /* margin:auto; */
+    /* padding: 5%; */
+}
+
+
+.header-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdeef1;
+    padding: 0px 10%;
+}
+
+.header-right {
+    width: 40%;
+    height: auto;
+}
+.header-right img {
+    width: 100%;
+}
+/* main section start */
+/* section one */
+.Flowers {
+    font-size: 21px;
+    font-weight: 700;
+}
+.long {
+    width: 50%;
+    margin: auto;
+    color: #7c7677;
+}
+.Featured {
+    text-align: center;
+    margin-top: 30px;
+}
+.flowers33 {
+    width: 300px;
+}
+.flowers33 img{
+    width: 80%;  
+}
+.flowers {
+    width: 300px;
+}
+.flowers img{
+    width: 70%;  
+}
+.flower1{
+    text-align: center;
+    border-radius: 50% 50% 0 0;
+    padding:10% 5% 0 5%;
+    background-color: #e7c2d4;
+}
+.flowers2 {
+    text-align: center;
+    border-radius: 50% 50% 0 0;
+    padding:10% 5% 20% 5%;
+    background-color: #bbe3e5;
+}
+.flowers3 {
+    text-align: center;
+    border-radius: 50% 50% 0 0;
+    padding:10% 5% 0 5%;
+    background-color: #cddcbe;
+
+}
+
+.AllFlowers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.section2 {
+    width: 90%;
+    /* margin-top: 50px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin:auto;
+    padding: 4%;
+    background-color: #f4f4f4;
+}
+
+.image5 {
+    text-align: center;
+}
+
+.Deal {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.looking {
+    color: #7c7677;
+    font-size: 13px;
+    /* max-width: 600px;
+    text-align: center; */
+}
+
+.left {
+    max-width: 400px;
+    text-align: center;
+}
+
+.button2 {
+    margin-top: 25px;
+    background-color: #e55473;
+    color: white;
+    font-size: 15px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.section3 {
+    display: flex;
+    top: 40px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* .section4{
+    width: 1336px;
+    height: 800px;
+} */
+.Instagram1 {
+    /* width: 400px; */
+    /* display: flex; */
+    text-align: center;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.Instagram {
+    font-size: 20px;
+    font-weight: 550;
+}
+.readable{
+    width: 45%;
+    margin: auto;
+}
+
+.images9-12 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+/* .section{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #fdeef1;
+} */
+.section5 {
+    
+    background-image: url(./images/image13.svg);
+    background-size: cover;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+
+.section55 {
+    padding:10% 5%;
+    margin-top: 10%;
+
+}
+.Instagram5 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.search-btn {
+    border: none;
+    padding: 2% 5%;
+    background-color: white;
+    color: #717179;
+    height: 40px;
+    margin-top: 20px;
+}
+.button3 {
+    margin-top: 25px;
+    background-color: #e55473;
+    color: white;
+    font-size: 15px;
+    border: none;
+    width: 120px;
+    height: 48px;
+    border-radius: 15px;
+}
+.search {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.Shop {
+    font-size: 30px; 
+}
+.footer {
+    color: white;
+    background-color: black;
+    max-width: 100%;
+    height: 30%;
+    text-align: center;
+    margin-top: 70px;
+}
+.FlowerShop {
+    padding: 5% 4%;
+    line-height: 30px;
+}
+@media screen and (max-width:480px) {
+    .beautiful {
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 35px;
+    }
+    .established {
+        margin-top: 15px;
+        font-size: 12px;
+        color: #7c7677;
+    }
+    .button {
+        font-size: 15px;
+        padding: 8px 15px;
+        border-radius: 12px;
+    }
+}
+@media screen and (max-width:768px) {
+    .header-container {
+        /* align-self: center; */
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .header-right {
+        display: none;
+    }
+    .header-left {
+        width: 80%;
+    }
 }
